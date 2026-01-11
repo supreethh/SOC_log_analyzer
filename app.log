@@ -1,0 +1,14 @@
+{"time": "2026-01-11T11:59:42.698435+05:30", "level": "INFO", "msg": "starting url-shortener", "env": "prod", "version": "123"}
+{"time": "2026-01-11T11:59:42.698610+05:30", "level": "INFO", "msg": "server started", "env": "prod", "version": "123"}
+{"time": "2026-01-11T11:59:42.698676+05:30", "level": "WARNING", "msg": "low memory warning", "env": "prod", "version": "123"}
+{"time": "2026-01-11T11:59:42.698727+05:30", "level": "ERROR", "msg": "something went wrong", "env": "prod", "version": "123"}
+{"time": "2026-01-11T11:59:42.698776+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-01-11T11:59:42.698828+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-01-11T11:59:42.699179+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-01-11T12:26:58.295156+05:30", "level": "INFO", "msg": "starting url-shortener", "env": "prod", "version": "123"}
+{"time": "2026-01-11T12:26:58.296196+05:30", "level": "INFO", "msg": "server started", "env": "prod", "version": "123"}
+{"time": "2026-01-11T12:26:58.296307+05:30", "level": "WARNING", "msg": "low memory warning", "env": "prod", "version": "123"}
+{"time": "2026-01-11T12:26:58.296367+05:30", "level": "ERROR", "msg": "something went wrong", "env": "prod", "version": "123"}
+{"time": "2026-01-11T12:26:58.296424+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-01-11T12:26:58.296482+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-01-11T12:26:58.296535+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
