@@ -25,7 +25,7 @@ This project demonstrates practical log processing, event correlation, and basic
 ```
 SOC_log_analyzer/
 │
-├── log_analyzer.py   # Core log parsing, filtering, and detection logic
+├── analyzer.py   # Core log parsing, filtering, and detection logic
 ├── logger.py        # Log generator used to simulate realistic log data
 ├── app              # Sample application log
 ├── test             # Large test dataset for analysis
@@ -91,5 +91,6 @@ This tool mirrors the type of scripting used in SOC environments for:
 - Detection prototyping  
 
 It is designed to demonstrate security-focused Python skills rather than generic scripting.
+
 
 
