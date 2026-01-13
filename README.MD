@@ -37,15 +37,11 @@ SOC_log_analyzer/
 
 ## Log Format
 
-Logs are stored as JSON objects, one per line. Example:
+Logs are stored as JSON objects. Example:
 
 ```json
 {
-  "time": "2026-01-11 14:05:32",
-  "level": "ERROR",
-  "msg": "Failed login attempt",
-  "user": "admin",
-  "ip": "192.168.1.12"
+  "time": "2026-01-11 14:05:32","level": "ERROR","msg": "Failed login attempt","user": "admin","ip": "192.168.1.12"
 }
 ```
 
@@ -91,6 +87,7 @@ This tool mirrors the type of scripting used in SOC environments for:
 - Detection prototyping  
 
 It is designed to demonstrate security-focused Python skills rather than generic scripting.
+
 
 
 
