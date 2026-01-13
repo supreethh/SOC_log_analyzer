@@ -74,12 +74,6 @@ cd SOC_log_analyzer
 Run the analyzer by passing a log file:
 
 ```bash
-python log_analyzer.py app
-```
-
-or
-
-```bash
 python log_analyzer.py test
 ```
 
@@ -97,3 +91,4 @@ This tool mirrors the type of scripting used in SOC environments for:
 - Detection prototyping  
 
 It is designed to demonstrate security-focused Python skills rather than generic scripting.
+
