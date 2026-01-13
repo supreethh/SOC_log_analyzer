@@ -74,7 +74,7 @@ cd SOC_log_analyzer
 Run the analyzer by passing a log file:
 
 ```bash
-python log_analyzer.py test
+python analyzer.py test.log
 ```
 
 Depending on your implementation, you can also filter by time ranges, log level, or message content.
@@ -91,4 +91,5 @@ This tool mirrors the type of scripting used in SOC environments for:
 - Detection prototyping  
 
 It is designed to demonstrate security-focused Python skills rather than generic scripting.
+
 
