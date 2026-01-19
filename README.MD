@@ -79,7 +79,7 @@ This will parse the logs, apply detection logic, and output a summary along with
 
 The analyzer supports basic filtering to help narrow down relevant events during SOC-style investigations.
 
-### Filter by Log Level
+## Filter by Log Level
 
 The analyzer supports basic filtering to help narrow down relevant events during SOC-style investigations.
 
@@ -116,6 +116,7 @@ This tool mirrors the type of scripting used in SOC environments for:
 - Detection prototyping  
 
 It is designed to demonstrate security-focused Python skills rather than generic scripting.
+
 
 
 
