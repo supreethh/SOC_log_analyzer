@@ -87,21 +87,21 @@ Analyze only warning-level events:
 
 ```
 python analyzer.py test.log WARNING
-
+```
 ## Filter by Message Content
 
 Search for authentication-related activity, such as failed logins:
 
 ```
 python analyzer.py test.log "failed login"
-
+```
 ## Filter by Time Range
 
 Analyze logs within a specific time window:
 
 ```
 python analyzer.py test.log "2026-01-11 12:00:00" "2026-01-11 13:00:00"
-
+```
 
 
 ---
@@ -116,6 +116,7 @@ This tool mirrors the type of scripting used in SOC environments for:
 - Detection prototyping  
 
 It is designed to demonstrate security-focused Python skills rather than generic scripting.
+
 
 
 
