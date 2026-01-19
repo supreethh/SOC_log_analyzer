@@ -53,7 +53,7 @@ This approach mirrors common SOC detection logic used in SIEM platforms, albeit 
 | 2026-01-11 12:31:28   | WARNING | admin | 192.168.1.45   | Failed login attempt     |
 | 2026-01-11 12:31:28   | WARNING | admin | 192.168.1.45   | Failed login attempt     |
 
-> Note: Timestamps were normalized from ISO 8601 format during parsing. No successful login events were observed following these attempts.
+> Note: All failed login events share the same timestamp due to second-level timestamp precision in application logging. No successful login events were observed following these attempts.
 
 ---
 
@@ -164,4 +164,5 @@ The project serves as a practical example of how Security Analysts can extract a
 ---
 
 *Disclaimer: This report is based on a simulated dataset created for educational and portfolio purposes only.*
+
 
