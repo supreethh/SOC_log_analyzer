@@ -48,6 +48,7 @@ This approach mirrors common SOC detection logic used in SIEM platforms, albeit 
 ---
 
 ### Sample Analyzer Output
+```text
 SOC Log Summary:
 Total Logs: 509
 Errors: 7
@@ -56,6 +57,7 @@ Info: 496
 
 [ALERT] Brute-force detected:
 admin from 192.168.1.45 -> 3 failed login attempts
+```
 
 ---
 
@@ -178,6 +180,7 @@ The project serves as a practical example of how Security Analysts can extract a
 ---
 
 *Disclaimer: This report is based on a simulated dataset created for educational and portfolio purposes only.*
+
 
 
 
