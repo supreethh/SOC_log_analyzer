@@ -73,7 +73,36 @@ Run the analyzer by passing a log file:
 python analyzer.py test.log
 ```
 
-Depending on your implementation, you can also filter by time ranges, log level, or message content.
+This will parse the logs, apply detection logic, and output a summary along with any detected brute-force activity.
+
+## Log Filtering Examples
+
+The analyzer supports basic filtering to help narrow down relevant events during SOC-style investigations.
+
+### Filter by Log Level
+
+The analyzer supports basic filtering to help narrow down relevant events during SOC-style investigations.
+
+Analyze only warning-level events:
+
+```
+python analyzer.py test.log WARNING
+
+## Filter by Message Content
+
+Search for authentication-related activity, such as failed logins:
+
+```
+python analyzer.py test.log "failed login"
+
+## Filter by Time Range
+
+Analyze logs within a specific time window:
+
+```
+python analyzer.py test.log "2026-01-11 12:00:00" "2026-01-11 13:00:00"
+
+
 
 ---
 
@@ -87,6 +116,7 @@ This tool mirrors the type of scripting used in SOC environments for:
 - Detection prototyping  
 
 It is designed to demonstrate security-focused Python skills rather than generic scripting.
+
 
 
 
