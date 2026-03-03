@@ -507,3 +507,20 @@
 {"time": "2026-01-11T12:31:28.455061+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
 {"time": "2026-01-11T12:31:28.455101+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
 {"time": "2026-01-11T12:31:28.455138+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.473037+05:30", "level": "INFO", "msg": "starting url-shortener", "env": "prod", "version": "123"}
+{"time": "2026-03-03T12:28:26.474318+05:30", "level": "INFO", "msg": "server started", "env": "prod", "version": "123"}
+{"time": "2026-03-03T12:28:26.474473+05:30", "level": "WARNING", "msg": "low memory warning", "env": "prod", "version": "123"}
+{"time": "2026-03-03T12:28:26.474537+05:30", "level": "ERROR", "msg": "something went wrong", "env": "prod", "version": "123"}
+{"time": "2026-03-03T12:28:26.474595+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.474651+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.474699+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-03-03T23:14:00+05:30", "level": "INFO", "msg": "login successful", "env": "prod", "version": "123", "ip": "192.168.1.45", "user": "admin", "service": "ssh"}
+{"time": "2026-03-03T02:33:00+05:30", "level": "INFO", "msg": "login successful", "env": "prod", "version": "123", "ip": "10.0.0.22", "user": "root", "service": "ssh"}
+{"time": "2026-03-03T04:51:00+05:30", "level": "INFO", "msg": "login successful", "env": "prod", "version": "123", "ip": "203.0.113.5", "user": "admin", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.478560+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "45.33.32.156", "user": "admin", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.478647+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "45.33.32.156", "user": "root", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.478700+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "45.33.32.156", "user": "administrator", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.478757+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "45.33.32.156", "user": "user", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.478810+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "45.33.32.156", "user": "test", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.478943+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "45.33.32.156", "user": "guest", "service": "ssh"}
+{"time": "2026-03-03T12:28:26.479003+05:30", "level": "WARNING", "msg": "failed login attempt", "env": "prod", "version": "123", "ip": "45.33.32.156", "user": "operator", "service": "ssh"}
