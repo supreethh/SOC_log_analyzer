@@ -7,16 +7,17 @@ This project demonstrates practical log processing, event correlation, and basic
 ---
 
 ## Features
-
-- Parses JSON-formatted log files  
-- Normalizes timestamps into comparable datetime objects  
-- Flattens extra log fields into readable messages  
+- Parses JSON-formatted log files
+- Normalizes timestamps into comparable datetime objects
+- Flattens extra log fields into readable messages
 - Filters logs by:
-  - time range  
-  - log level  
-  - message content  
-- Detects brute-force login attempts  
-- Generates summarized output for quick inspection  
+  - time range
+  - log level
+  - message content
+- Detects brute-force login attempts (MITRE ATT&CK T1110 — Brute Force)
+- Detects off-hours login activity (MITRE ATT&CK T1078 — Valid Accounts)
+- Detects account enumeration attempts across multiple usernames from a single IP
+- Generates summarized SOC-style dashboard output 
 
 ---
 
@@ -107,15 +108,19 @@ python analyzer.py test.log "2026-01-11 12:00:00" "2026-01-11 13:00:00"
 ---
 
 ## Why this project matters
-
 This tool mirrors the type of scripting used in SOC environments for:
+- Log triage
+- Alert investigation
+- Incident reconstruction
+- Detection prototyping
 
-- Log triage  
-- Alert investigation  
-- Incident reconstruction  
-- Detection prototyping  
+Three detection types are implemented, each mapped to MITRE ATT&CK:
+- T1110 — Brute Force (repeated failed logins from same user/IP)
+- T1078 — Valid Accounts (successful logins outside business hours)
+- T1110 — Credential Access via account enumeration (multiple usernames from single IP)
 
-It is designed to demonstrate security-focused Python skills rather than generic scripting.
+It is designed to demonstrate security-focused Python skills and detection engineering logic rather than generic scripting.
+
 
 
 
